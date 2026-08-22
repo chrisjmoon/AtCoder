@@ -147,6 +147,11 @@ ll pow(ll x, ll y, ll MOD = 0)
     return res;
 }
 
+int digits(ll x)
+{
+    return to_string(x).size();
+}
+
 int main()
 {
     ios::sync_with_stdio(false);
